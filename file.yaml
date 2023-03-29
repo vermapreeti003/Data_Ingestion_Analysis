@@ -1,0 +1,18 @@
+file_type: csv
+dataset_name: testfile
+file_name: canada_weather
+table_name: weather_canada
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - community
+    - weather_station
+    - location
+    - elevation
+    - january_avg_high
+    - january_avg_low
+    - july_avg_high
+    - july_avg_low
+    - annual_avg_high
+    - annual_avg_low
